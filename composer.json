@@ -1,0 +1,26 @@
+{
+    "name": "demoprj/composerpackage",
+    "type": "library",
+    "description": "A demo for php composer package",
+    "keywords": [
+        "demo", 
+        "php", 
+        "composer",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tokoyi",
+            "email": "tokoyi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "demoprj\\ComposerPackage\\": "src/"
+        }
+    }
+}
